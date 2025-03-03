@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>gitHubProfileViwer</title>
+</head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="image/github.png" height="25px"width="25px"><br>
+            <h2>Git-Hub <br>Profile Viewer</h2>
+            <input type="text" id="username" placeholder="Enter Username"><br><br>
+            <button onclick="search()">Search</button><br><br>
+            <a href="" id="ans"></a>
+        </div>
+    </div>
+    <script>
+        let username=document.getElementById("username");
+        let ans=document.getElementById("ans");
+        function search(){
+            ans.href="https://github.com/" + username.value;
+            document.getElementById("ans").innerHTML="View Profile"
+        }
+    </script>
+    
+</body>
+</html>

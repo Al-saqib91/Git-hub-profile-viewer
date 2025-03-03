@@ -1,0 +1,66 @@
+body,html{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    background-color: #0a0c10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    background-color: #13151b;
+    padding: 85px 15px;
+    border-radius: 10px;
+    border: 0.01px solid #394050;
+    transition: transform 0.8s;
+}
+.box:hover{
+    transform: scale(1.04);
+}
+h2{
+    font-size: 28px;
+    color: white;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+input{
+    font-size: 20px;
+    color: #666d7b;
+    background-color: #090a0e;
+    height: 30px;
+    width: 340px;
+    border-radius: 5px;
+    border: 1px solid #6a707c;
+}
+input:hover{
+    transform: scale(1.01);
+    color: rgb(206, 213, 215);
+    background-color: #12131a;
+}
+button{
+    border-radius: 13px;
+    border: 1px solid rgb(22, 71, 20);
+    background-color: rgba(74, 182, 34, 0.916);
+    cursor: pointer;
+    font-size: 22px;
+    height: 32px;
+    width: 160px;
+}
+button:hover{
+    transform: scale(1.02); 
+    background-color: rgb(85, 255, 0);
+    border: 2px solid rgb(171, 194, 170);
+}
+a{
+    font-size: 22px;
+    color: rgb(74, 156, 228);
+}
+a:hover{
+    color: rgb(24, 128, 219);
+}
